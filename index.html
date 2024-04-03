@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>GoPerch | Home</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__bar">
+          <div class="logo">
+            <a href="#"><img src="Images/logo.png" alt="logo" /></a>
+            <h1>GoPerch</h1>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#service">Settings</a></li>
+   
+        </ul>
+        <!-- <button class="btn nav__btn">Book Now</button> -->
+        <a href="#cards"><button class="nav__btn">
+          <span class="transition"></span>
+          <span class="gradient"></span>
+          <span class="label"> <b>Book Now</b></span>
+        
+        </button></a>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <p data-aos="fade-up"  data-aos-duration="1000" data-aos-mirror="true" >Simple - Unique - Friendly</p>
+        <h1 data-aos="fade-right"  data-aos-duration="2000" data-aos-mirror="true" data-aos-delay="700" >Don't Google, just grab a Perch<br /> <b><span style="text-align: center;">– Reservations made easy !</span></b></h1>
+      </div>
+    </header>
+
+
+
+    <!-- <-----Cards----- > -->
+<div class="service-card-container" style="padding-bottom: 100px;" >
+    <div class="offers">
+        <h1 class="card-heading" style="margin-bottom: 300px;" data-aos="fade-right"  data-aos-duration="2000" data-aos-mirror="true" data-aos-delay="0">Today's Offer :</h1>
+    </div>
+    <h1 class="card-heading" data-aos="fade-right"  data-aos-duration="2000" data-aos-mirror="true" data-aos-delay="0">Our Services :</h1>
+    <div class="home-card-container" >
+        <div data-aos="fade-up"  data-aos-duration="1500" data-aos-mirror="true" data-aos-delay="300">    
+            <article class="article-wrapper" id="cards">
+            <div class="rounded-lg container-project pic1" >
+              </div>
+              <div class="project-info" >
+                <div class="flex-pr">
+                  <div class="project-title text-nowrap">Restaurants</div>
+                    <div class="project-hover">
+                      <svg style="color: black;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" color="black" stroke-linejoin="round" stroke-linecap="round" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke="currentColor"><line y2="12" x2="19" y1="12" x1="5"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                      </div>
+                    </div>
+                    <!-- <div class="types">
+                      <span style="background-color: #f78000c7; color: black;" class="project-type">• Analytics</span>
+                       <span class="project-type">• Manipal</span>
+                  </div> -->
+              </div>
+          </article>
+        </div>
+    
+        <div data-aos="fade-up"  data-aos-duration="1500" data-aos-mirror="true" data-aos-delay="600">
+            <article class="article-wrapper">
+                <div class="rounded-lg container-project pic2">
+                  </div>
+                  <div class="project-info">
+                    <div class="flex-pr">
+                      <div class="project-title text-nowrap">Parking</div>
+                        <div class="project-hover">
+                          <svg style="color: black;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" color="black" stroke-linejoin="round" stroke-linecap="round" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke="currentColor"><line y2="12" x2="19" y1="12" x1="5"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                          </div>
+                        </div>
+                        <!-- <div class="types">
+                          <span style="background-color: #f78000c7; color: black;" class="project-type">• Analytics</span>
+                           <span class="project-type">• Manipal</span>
+                      </div> -->
+                  </div>
+              </article>
+        </div>
+    
+        <div data-aos="fade-up"  data-aos-duration="1500" data-aos-mirror="true" data-aos-delay="900">
+            <article class="article-wrapper">
+                <div class="rounded-lg container-project pic3">
+                  </div>
+                  <div class="project-info">
+                    <div class="flex-pr">
+                      <div class="project-title text-nowrap">Gaming</div>
+                        <div class="project-hover">
+                          <svg style="color: black;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" color="black" stroke-linejoin="round" stroke-linecap="round" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke="currentColor"><line y2="12" x2="19" y1="12" x1="5"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                          </div>
+                        </div>
+                        <!-- <div class="types">
+                          <span style="background-color: #d00000da; color: whitesmoke; border: 0.3px solid black; " class="project-type">• Analytics</span>
+                           <span class="project-type">• Manipal</span>
+                      </div> -->
+                  </div>
+              </article>
+        </div>
+
+    </div>
+
+</div>
+    
+    
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="main.js"></script>
+  </body>
+</html>
